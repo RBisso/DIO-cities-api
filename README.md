@@ -45,3 +45,13 @@ And to run locally:
 ```shell
 ./gradlew bootRun
 ```
+
+# Paths
+* /cities
+* /countries
+* /countries/{id}
+* /countries?page=<0..6>&size=<0..255>
+* /states
+* /states/{id}
+* /distance/by-points?from={cityID1}&to={cityID2}
+* /distance/by-cube?from={cityID1}&to={cityID2}
